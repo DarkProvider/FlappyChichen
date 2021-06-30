@@ -22,10 +22,10 @@ public class GameHandler : MonoBehaviour
     {
         transform.Translate(velocity * Time.deltaTime, Space.World);
 
-        if (transform.position.x < -17)
+        if (transform.position.x < -16)
         {
 
-            transform.Translate(250, Random.Range(-2, 4), 0);
+            transform.Translate(195, Random.Range(-2, 4), 0);
 
         }
     }
